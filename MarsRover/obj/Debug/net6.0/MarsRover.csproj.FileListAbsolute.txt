@@ -1,0 +1,12 @@
+/Users/cameronraw/code/katas/MarsRover/MarsRover/obj/Debug/net6.0/MarsRover.csproj.AssemblyReference.cache
+/Users/cameronraw/code/katas/MarsRover/MarsRover/obj/Debug/net6.0/MarsRover.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cameronraw/code/katas/MarsRover/MarsRover/obj/Debug/net6.0/MarsRover.AssemblyInfoInputs.cache
+/Users/cameronraw/code/katas/MarsRover/MarsRover/obj/Debug/net6.0/MarsRover.AssemblyInfo.cs
+/Users/cameronraw/code/katas/MarsRover/MarsRover/obj/Debug/net6.0/MarsRover.csproj.CoreCompileInputs.cache
+/Users/cameronraw/code/katas/MarsRover/MarsRover/bin/Debug/net6.0/MarsRover.deps.json
+/Users/cameronraw/code/katas/MarsRover/MarsRover/bin/Debug/net6.0/MarsRover.dll
+/Users/cameronraw/code/katas/MarsRover/MarsRover/bin/Debug/net6.0/MarsRover.pdb
+/Users/cameronraw/code/katas/MarsRover/MarsRover/obj/Debug/net6.0/MarsRover.dll
+/Users/cameronraw/code/katas/MarsRover/MarsRover/obj/Debug/net6.0/refint/MarsRover.dll
+/Users/cameronraw/code/katas/MarsRover/MarsRover/obj/Debug/net6.0/MarsRover.pdb
+/Users/cameronraw/code/katas/MarsRover/MarsRover/obj/Debug/net6.0/ref/MarsRover.dll

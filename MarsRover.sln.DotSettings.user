@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=887324e8_002De708_002D4127_002Da7be_002D88171a56912e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="MarsRoverTests #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::FCE7E70B-51A3-4B87-9088-A7DDE4B662A0::net6.0::UnitTests.MarsRoverTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c2b554c0_002D3238_002D4bbf_002Daac5_002Df062a955d076/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MarsRoverTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::77343F27-1050-465F-A8EC-2EB64CB59861::net6.0::Tests.MarsRoverTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fda076a0_002D2d35_002D4e1b_002D8a46_002Dbdbdc373cfb4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MarsRoverTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::FCE7E70B-51A3-4B87-9088-A7DDE4B662A0::net6.0::UnitTests.MarsRoverTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
