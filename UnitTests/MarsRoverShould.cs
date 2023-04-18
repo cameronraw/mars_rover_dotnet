@@ -3,7 +3,7 @@ using NUnit.Framework;
 using MarsRover;
 
 [TestFixture]
-public class MarsRoverTests
+public class MarsRoverShould
 {
     [Test]
     public void Constructor_InitializesDefaultValues()
@@ -23,8 +23,7 @@ public class MarsRoverTests
 
         Assert.That(rover.Execute(command), Is.EqualTo(expected));
     }
-
-
+    
     [TestCase("R", "0:0:E")]
     [TestCase("RR", "0:0:S")]
     [TestCase("RRR", "0:0:W")]
@@ -35,8 +34,7 @@ public class MarsRoverTests
 
         Assert.That(rover.Execute(command), Is.EqualTo(expected));
     }
-
-
+    
     [Test]
     public void Execute_MoveNorth_IncrementsY()
     {

@@ -2,12 +2,12 @@
 
 public class MarsRover
 {
-    private Orientation _orientation;
+    private IOrientation _orientation;
     private readonly Coordinates _coordinates;
 
     public MarsRover()
     {
-        _orientation = Orientation.North;
+        _orientation = new North();
         _coordinates = new Coordinates(0, 0);
     }
 
@@ -38,23 +38,23 @@ public class MarsRover
 
     private string CurrentStatus()
     {
-        return $"{_coordinates.DisplayCoordinates()}:{_orientation.ToCardinal()}";
+        return $"{_coordinates.DisplayCoordinates()}:{_orientation.CurrentState()}";
     }
 
     private void Move()
     {
         switch (_orientation)
         {
-            case Orientation.North:
+            case North:
                 _coordinates.MoveNorth();
                 break;
-            case Orientation.East:
+            case East:
                 _coordinates.MoveEast();
                 break;
-            case Orientation.South:
+            case South:
                 _coordinates.MoveSouth();
                 break;
-            case Orientation.West:
+            case West:
                 _coordinates.MoveWest();
                 break;
             default:
@@ -64,25 +64,11 @@ public class MarsRover
 
     private void TurnRight()
     {
-        _orientation = _orientation switch
-        {
-            Orientation.North => Orientation.East,
-            Orientation.East => Orientation.South,
-            Orientation.South => Orientation.West,
-            Orientation.West => Orientation.North,
-            _ => throw new InvalidOrientationException()
-        };
+        _orientation = _orientation.TurnRight();
     }
 
     private void TurnLeft()
     {
-        _orientation = _orientation switch
-        {
-            Orientation.North => Orientation.West,
-            Orientation.East => Orientation.North,
-            Orientation.South => Orientation.East,
-            Orientation.West => Orientation.South,
-            _ => throw new InvalidOrientationException()
-        };
+        _orientation = _orientation.TurnLeft();
     }
 }
