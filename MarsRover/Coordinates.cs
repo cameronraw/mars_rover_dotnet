@@ -1,6 +1,6 @@
 namespace MarsRover
 {
-    internal class Coordinates
+	public class Coordinates
     {
 		private int X;
 		private int Y;
